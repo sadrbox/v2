@@ -1,12 +1,8 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col">
-        <router-view></router-view>
-      </div>
-      <div class="col">
-        col №2
-      </div>
+      <div class="col"></div>
+      <div class="col">col №2</div>
     </div>
   </div>
 </template>

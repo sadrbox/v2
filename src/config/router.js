@@ -1,20 +1,25 @@
 import Vue from "vue";
 import Router from "vue-router";
 
-const Home = { template: "<div>Home</div>" };
-const Article = { template: "<div>Article</div>" };
+import Article from "@/views/article/list";
+import ArticleCreate from "@/views/article/form";
 
 Vue.use(Router);
 
 export default new Router({
+  mode: "history",
   routes: [
     {
       path: "/",
-      component: Home,
+      component: Article,
     },
     {
       path: "/article",
       component: Article,
+    },
+    {
+      path: "/article/create",
+      component: ArticleCreate,
     },
   ],
 });

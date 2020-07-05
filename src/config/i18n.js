@@ -8,37 +8,52 @@ export default new i18n({
   //fallbackLocale: "ru",
   messages: {
     kz: {
-      link: {
+      links: {
+        managers: {
+          create: "Создать",
+          edit: "Редактировать",
+          delete: "Удалить",
+          save: "Сохранить",
+        },
         home: "Басты бет",
         article: "Жаңалықтар",
+        articles: {
+          create: "Добавить новость",
+        },
       },
       welcomeMsg: "Казахский язык to Your Vue.js App",
-      pluginsTxt: "Installed CLI Plugins",
-      guideTxt:
-        "For a guide and recipes on how configure / customize this project",
-      guideDocTxt: "vue-cli documentaion",
     },
     ru: {
-      link: {
+      links: {
+        managers: {
+          create: "Создать",
+          edit: "Редактировать",
+          delete: "Удалить",
+          save: "Сохранить",
+        },
         home: "Главная страница",
         article: "Новости",
+        articles: {
+          create: "Добавить новость",
+        },
       },
       welcomeMsg: "Приветствую в Vue.js App",
-      pluginsTxt: "Установленные CLI Plugins",
-      guideTxt:
-        "Для руководства и примеров как настроить этот проект, {break} смотреть",
-      guideDocTxt: "vue-cli документация",
     },
     en: {
-      link: {
+      links: {
+        managers: {
+          create: "Создать",
+          edit: "Редактировать",
+          delete: "Удалить",
+          save: "Сохранить",
+        },
         home: "Home",
         article: "News",
+        articles: {
+          create: "Добавить новость",
+        },
       },
       welcomeMsg: "Welcome to Your Vue.js App",
-      pluginsTxt: "Installed CLI Plugins",
-      guideTxt:
-        "For a guide and recipes on how configure / customize this project",
-      guideDocTxt: "vue-cli documentaion",
     },
   },
 });

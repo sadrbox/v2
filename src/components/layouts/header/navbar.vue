@@ -16,10 +16,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">{{ $t('link.home') }}</router-link>
+            <router-link class="nav-link" to="/">{{ $t('links.home') }}</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/article">{{ $t('link.article') }}</router-link>
+            <router-link class="nav-link" to="/article">{{ $t('links.article') }}</router-link>
           </li>
         </ul>
         <ul class="navbar-nav">
