@@ -1,0 +1,18 @@
+<template>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <router-view></router-view>
+      </div>
+      <div class="col">
+        col №2
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style></style>
