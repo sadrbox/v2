@@ -21,7 +21,11 @@ export default new i18n({
           create: "Добавить новость",
         },
       },
-      welcomeMsg: "Казахский язык to Your Vue.js App",
+      views: {
+        articles: {
+          create: "Новости: Новый",
+        },
+      },
     },
     ru: {
       links: {
@@ -37,7 +41,11 @@ export default new i18n({
           create: "Добавить новость",
         },
       },
-      welcomeMsg: "Приветствую в Vue.js App",
+      views: {
+        articles: {
+          create: "Новости: Новый",
+        },
+      },
     },
     en: {
       links: {
@@ -53,7 +61,11 @@ export default new i18n({
           create: "Добавить новость",
         },
       },
-      welcomeMsg: "Welcome to Your Vue.js App",
+      views: {
+        articles: {
+          create: "Новости: Новый",
+        },
+      },
     },
   },
 });
