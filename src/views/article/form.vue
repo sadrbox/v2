@@ -11,15 +11,18 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-8">
+      <div class="col-12">
         <form action="#" class="form mt-3">
           <div class="mb-3 form-group">
-            <label for="title" class="form-label">Заголовок</label>
-            <input type="title" class="form-control" id="title" placeholder />
+            <!-- <label for="title" class="form-label">Заголовок</label> -->
+            <input type="title" class="form-control" id="title" placeholder="Заголовок новости" />
           </div>
           <div class="mb-3 form-group">
-            <label for="text" class="form-label">Текст</label>
-            <textarea class="form-control" id="text" rows="8"></textarea>
+            <!-- <label for="text" class="form-label">Текст</label> -->
+            <textarea class="paper-style form-control" id="text" rows="30" placeholder="Текст">
+             По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. 
+             В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.
+            </textarea>
           </div>
         </form>
       </div>
@@ -39,5 +42,9 @@ export default {};
 }
 .form-label {
   text-transform: uppercase;
+}
+.paper-style {
+  padding:60px;
+  width: 800px;
 }
 </style>
