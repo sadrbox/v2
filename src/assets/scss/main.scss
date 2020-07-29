@@ -1,6 +1,17 @@
+@import "fonts.scss";
+
+body{
+
+}
 .nav-item .router-link-exact-active {
+
   color: red !important;
 }
-.form-control  {
-  border-radius: 1px;
+.form-control {
+  border-radius: 2px;
+  border: 1px solid #999;
+  &:focus {
+    border: 1px solid blue;
+    box-shadow: none;
+  }
 }
